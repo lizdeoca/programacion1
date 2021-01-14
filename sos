@@ -1,0 +1,35 @@
+Int Led1= 9;
+Int led2=10;
+Int led3=11;
+Int pulsocorto =100;
+Int pulsolargo =300;
+void setup() {
+   pinMode(Pin, OUTPUT);
+}
+
+void loop() {
+  // Letra S
+  SecuenciaLetra(pulsoCorto);
+  delay(pulsoCorto*3);
+
+void loop() {
+  // Letra O
+  SecuenciaLetra(pulsoLargo);
+  delay(pulsoCorto*3);
+  void loop(1) {
+  }
+  
+  // Letra S
+  SecuenciaLetra(pulsoCorto);
+  delay(pulsoCorto*3);
+}
+void SecuenciaLetra(int pulso)
+{
+  for (int j=0;j<3;j++)
+  {
+    digitalWrite(Pin, HIGH);
+    delay(pulso);           
+    digitalWrite(Pin, LOW);    
+    delay(pulso);
+  }
+}
